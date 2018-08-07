@@ -1,8 +1,11 @@
 # ITEB: iterated & truncated empirical bayes for strong signal detection
 
-In the file z_scores.R, we provide two functions to use, and they provide the estimate of tau and z-scores using different methods:
+In the file z_scores.R, we provide four functions to use.
 
-ITEB: estimation using iterated & truncated empirical bayes
+iteratedEB: estimation using iterated & truncated empirical bayes and out put estimated tau
 
+truncatedMLE: estimation using the truncated MLE and out put estimated tau
 
-truncatedMLE: estimation using the truncated MLE
+Az_scores_ITEB: get the tau using iteratedEB and the associated p-values
+
+Az_scores_TMLE: get the tau using truncatedMLE and the associated p-values
